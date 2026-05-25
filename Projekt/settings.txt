@@ -1,0 +1,22 @@
+[project]
+name = Instrumenty-Finansowe
+python_version = 3.11
+venv_name = .venv
+
+[dependencies]
+numpy
+pandas
+matplotlib
+jupyter
+ipykernel
+scikit-learn
+scipy
+
+[dev-dependencies]
+pytest
+black
+pylint
+
+[jupyter]
+kernel_name = projekt-env
+display_name = Projekt Environment
